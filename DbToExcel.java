@@ -61,9 +61,7 @@ public class DbToExcel {
 			  	ArrayList<Object> temp = new ArrayList<>();
 			  	ArrayList<String> columnNames = new ArrayList<>();
 				for (int i = 1; i < columnCount + 1; i++) {
-					//String name = rsmd.getColumnName(i);
 				columnNames.add( rsmd.getColumnName(i));
-					//temp.add(resultSet.getString(name));
 				}
 				
 				while(resultSet.next()){
